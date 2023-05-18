@@ -1,6 +1,6 @@
 import './App.css';
 import ReactDom from "react-dom/client";
-import "remixicon/fonts/remmixicon.css";
+import 'remixicon/fonts/remixicon.css'
 
 function App() {
   return (
