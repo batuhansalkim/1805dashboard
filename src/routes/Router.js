@@ -10,6 +10,9 @@ function Router(){
     return <BrowserRouter>
     <Routes>
         <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route path="/bookings" element={<Booking/>}/>
+        <Route path="/sell-car" element={<SellCar/>}/>
+        <Route path="/settings" element={<Settings/>}/>
     </Routes>
     </BrowserRouter>
 }
