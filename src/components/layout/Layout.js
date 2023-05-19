@@ -8,11 +8,11 @@ function Layout(){
         <Sidebar/>
         <div className="amin__layout">
             <TopNav/>
-
-            <div className="content">
-                <Router/>
-            </div>
-        </div>
+        
+        <div className="content">
+            <Router />
+        </div> 
+        </div>     
     </div>
 }
 export default Layout;

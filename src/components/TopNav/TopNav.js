@@ -2,7 +2,7 @@ import React from 'react'
 
 function TopNav() {
   return (
-    <div>TopNav</div>
+    <div>TopNav sayfası</div>
   )
 }
 
