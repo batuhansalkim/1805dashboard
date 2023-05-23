@@ -18,3 +18,13 @@
     column-gap: 0.5rem;
     color: var(--heading);
 }
+.sidebar__top h2 span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar__top h2 i{
+    font-weight: 400;
+}
