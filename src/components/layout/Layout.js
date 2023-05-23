@@ -6,7 +6,7 @@ import TopNav from "../TopNav/TopNav";
 function Layout(){
     return <div className="layout">
         <Sidebar/>
-        <div className="amin__layout">
+        <div className="main__layout">
             <TopNav/>
         
         <div className="content">
