@@ -7,17 +7,20 @@
     z-index: 999;
     background: var(--primary-color);
 }
+
 .sidebar__top{
     width: 100%;
     height: 70px;
     line-height: 70px;
 }
+
 .sidebar__top h2{
     display: flex;
     align-items: center;
     column-gap: .5rem;
     color: var(--heading-color);
 }
+
 .sidebar__top h2 span{
     width: 30px;
     height: 30px;
@@ -27,11 +30,13 @@
     background: var(--secondary-color);
     border-radius: 50%;
 }
+
 .sidebar__top h2 i{
     font-weight: 400;
     padding: 5px;
     font-size: 1.2rem;
 }
+
 .sidebar__content{
     background-color: red;
     display: flex;
@@ -40,10 +45,12 @@
     height: calc(100%- 5%);
     margin-top: 50px;
 }
+
 .menu{
     background-color: blue;
     height: 80%;
 }
+
 .sidebar__bottom{
     height: 20%;
     
