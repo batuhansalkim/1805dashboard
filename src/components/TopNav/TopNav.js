@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import profileImg from "../../assets/images/profile-02.png";
+import "../TopNav/top-nav.css";
+
+
 function TopNav() {
   return (
     <div className="top__nav">
