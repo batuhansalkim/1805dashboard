@@ -30,4 +30,21 @@
 .sidebar__top h2 i{
     font-weight: 400;
     padding: 5px;
+    font-size: 1.2rem;
+}
+.sidebar__content{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: calc(100%- 5%);
+    margin-top: 50px;
+}
+.menu{
+    background-color: blue;
+    height: 80%;
+}
+.sidebar__bottom{
+    height: 20%;
+    
 }

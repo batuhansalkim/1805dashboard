@@ -14,14 +14,20 @@ function sidebar() {
           <ul className='nav__list'>
             {
               navLinks.map((item,index)=>(
-                <li className='nav__item' key={index}>
-                  <NavLink to={item.path}>
-                    <span><i className={item.icon}></i></span>{" "}{item.display}
-                  </NavLink>
+                <li className='nav__item' key={index}> 
+                <NavLink to={item.path}>
+                  <span>
+                    <i className={item.icon}></i>
+                  </span> {" "}
+                  {item.display}
+                </NavLink>
                 </li>
-              ))
-            }
+              ))}
           </ul>
+        </div>
+
+        <div className="sidebar__bottom">
+          <span><i className='ri-logout-circle-r-line'></i>Logout</span>
         </div>
       </div>
     </div>
