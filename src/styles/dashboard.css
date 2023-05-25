@@ -1,0 +1,29 @@
+.dashboard{
+    margin-top: 100px;
+}
+.single__card{
+    background: var(--card-01-bg);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__content h4{
+    color: var(--heading-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.card__content span{
+    color: var(--heading-color);
+    font-size: 2rem;
+}
+.card__icon{
+    font-size: 2rem;
+    font-weight: 400 !important;
+    color: rgba(255, 255, 255, 0.845);
+}
+.dashboard__cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: gap;
+}
