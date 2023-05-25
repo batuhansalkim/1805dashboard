@@ -1,12 +1,25 @@
 .dashboard{
     margin-top: 100px;
+    margin-right: 5px;
 }
 .single__card{
-    background: var(--card-01-bg);
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 5px;
+}
+.single__card:nth-child(1){
+    background: var(--card-01-bg);
+}
+.single__card:nth-child(2){
+    background: var(--card-02-bg);
+}
+.single__card:nth-child(3){
+    background: var(--card-03-bg);
+}
+.single__card:nth-child(4){
+    background: var(--card-04-bg);
 }
 .card__content h4{
     color: var(--heading-color);
@@ -25,5 +38,5 @@
 .dashboard__cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: gap;
+    column-gap: 2rem;
 }

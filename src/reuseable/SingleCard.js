@@ -1,17 +1,24 @@
 import React from 'react'
-
-function SingleCard(props) {
-    const {title,totalNumber, icon} = props.item;
+import data from "../data";
+function SingleCard() {
+    const {title,totalNumber,icon }= data;
   return (
-        <div className="single__card">
-            <div className="card__content">
-              <h4>{title}</h4>
-              <span>{totalNumber}</span>
-            </div>
-
-            <span className="card__icon"><i className={icon}></i></span>
-        </div>
-  )
-}
+    <>
+    {data.map((item,index)=>(
+        <div className='single__card' key={index}>
+              <div className='card__content'>
+                  <h4>{item.title}</h4>
+                  <span>{item.totalNumber}+</span>
+              </div>
+              <span className='card__icon'>
+                  <i className={item.icon}></i>
+              </span>
+          </div>
+    ))}
+          
+    </>
+    
+  );
+};
 
 export default SingleCard
