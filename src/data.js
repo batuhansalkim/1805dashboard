@@ -10,7 +10,7 @@ const carsObj = [
         icon: "ri-steering-2-line",
     },
     {
-        title: "SalClients Annuallykim",
+        title: "Clients Annually",
         totalNumber: "85k",
         icon: "ri-user-line",
     },

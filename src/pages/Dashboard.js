@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/dashboard.css";
 import SingleCard from "../reuseable/SingleCard";
-import {ResponsiveContainer,BarChart,Bar,XAxis,Tooltip} from "recharts";
-import mileStaticData from "../assets/dummy-data/mileStatics";
+import MileChart from "../charts/MileChart";
 function Dashboard(){
     return(
         <div className="dashboard">
@@ -12,32 +11,11 @@ function Dashboard(){
                 </div>
                 <div className="statics">
                     <div className="stats">
-                        <ResponsiveContainer width="100%" aspect= {4/ 1}>
-                            <BarChart data={mileStaticData}>
-
-                                <XAxis dataKey="name" stroke="#2884ff"/>
-
-                                <Bar dataKey="mileStats" stroke="#2884ff" fill="#2884ff"/>
-
-                                <Tooltip/>
-                                
-                            </BarChart>
-                        </ResponsiveContainer>
+                        <h3 className="stats__title">Miles Statics</h3>
+                        <MileChart/>
                     </div>
 
-                    <div className="stats">
-                        <ResponsiveContainer width="100%" aspect={4 / 1}>
-                            <BarChart data={mileStaticData}>
-
-                                <XAxis dataKey="name" stroke="#2884ff" />
-
-                                <Bar dataKey="mileStats" stroke="#2884ff" fill="#2884ff" />
-
-                                <Tooltip />
-
-                            </BarChart>
-                        </ResponsiveContainer>
-                    </div>
+                    
                 </div>
 
             </div>
