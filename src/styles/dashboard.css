@@ -75,15 +75,30 @@
     align-items: center;
     column-gap: 1rem;
     color: var(--body-bg);
+    margin-bottom: 10px;
 }
 .recommend__car-top h5 i{
     font-size: 1.2rem;
 }
 .reccomend__car-bottom h4{
     font-size: 1.3rem;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
-
+.recommend__car-other{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recommend__icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.recommend__icons p:nth-child(1){
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+}
 
 
 
