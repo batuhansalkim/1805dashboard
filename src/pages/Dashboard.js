@@ -3,7 +3,10 @@ import "../styles/dashboard.css";
 import SingleCard from "../reuseable/SingleCard";
 import MileChart from "../charts/MileChart";
 import CarStatsChart from "../charts/CarStatsChart";
-import image1 from "../assets/images/mini-car-01.png";
+import RecommendCarCard from "../components/UI/RecommendCarCard";
+import RecommendCarsData from "../assets/dummy-data/recommendCars";
+
+
 function Dashboard(){
     return(
         <div className="dashboard">
@@ -25,7 +28,7 @@ function Dashboard(){
 
 
                 <div className="recommed__cars-wrapper">
-                    
+                    {RecommendCarsData.map(item=><RecommendCarCard item={item} key={item.id}/>)}
                 </div>
             </div>
         </div>

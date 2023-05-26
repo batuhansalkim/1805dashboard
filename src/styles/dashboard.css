@@ -1,6 +1,7 @@
 .dashboard{
     margin-top: 100px;
     margin-right: 5px;
+    padding-bottom: 5px;
 }
 .single__card{
     padding: 20px;
@@ -8,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 5px;
+    cursor: pointer;
 }
 .single__card:nth-child(1){
     background: var(--card-01-bg);
@@ -45,14 +47,23 @@
     grid-template-columns: repeat(2,1fr);
     column-gap: 2rem;
     margin-top: 2rem;
+    text-align: center;
     
+}
+.batu{
+    margin: auto;
+    text-align: center;
 }
 .stats{
     background: var(--primary-color);
-    padding: 30px;
+    padding: 10px 0.2px;
     border-radius: 5px;
-    height: 300px;
+    height: 250px;
     padding-bottom: 60px;
+    text-align: center;
+    width: 100%;
+    
+   
 }
 
 .tooltip__style{
@@ -64,11 +75,28 @@
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 20px;
+    text-align: center;
+}
+.recommed__cars-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top:2rem ;
+    column-gap: 2rem;
 }
 .recommend__car-card{
     padding: 20px;
     border-radius: 5px;
     background: var(--recommend-car01-bg);
+    cursor: pointer;
+}
+.recommend__car-card:nth-child(1){
+    background: var(--recommend-car01-bg);
+}
+.recommend__car-card:nth-child(2){
+    background: var(--recommend-car02-bg);
+}
+.recommend__car-card:nth-child(3){
+    background: var(--recommend-car03-bg);
 }
 .recommend__car-top h5{
     display: flex;
