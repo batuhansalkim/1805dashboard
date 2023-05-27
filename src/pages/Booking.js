@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/bookings.css";
-import carImg from "../assets/images/car-01.png";
-function Booking(){
+import CarItem from "../components/UI/CarItem";
+
+function Booking(props){
     return(
         <div className="bookings">
             <div className="booking__wrapper">
@@ -25,26 +26,7 @@ function Booking(){
                 </div>
 
                 <div className="booking__car-list">
-                    <div className="car__item">
-                        <div className="car__item-top">
-                            <div className="car__item-title">
-                                <h3>Nissan</h3>
-                                <span><i className="ri-heart-line"></i></span>
-                            </div>
-                            <p>Category</p>
-                        </div>
-                        <div className="car__img">
-                            <img src={carImg} alt="" />
-                        </div>
-
-                        <div className="car__item-bottom">
-                            <div className="car__bottom-left">
-                                <p><i className="ri-user-line"></i>4</p>
-                                <p><i className="ri-repeat-line"></i>Manual</p>
-                            </div>
-                            <p className="car__rent">$29/d</p>
-                        </div>
-                    </div>
+                    <CarItem/>
                 </div>
             </div>
         </div>

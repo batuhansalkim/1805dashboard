@@ -1,7 +1,12 @@
+.booking__car-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
 .bookings{
     margin-top: 100px;
-    padding-bottom: 50px;
     padding: 0 30px;
+    padding-bottom: 50px;
 }
 .booking__title{
     font-size: 1.5rem;
@@ -27,7 +32,9 @@
     padding: 20px;
     border-radius: 5px;
     background-color: var(--primary-color);
+    cursor: pointer;
 }
+
 .car__item-title{
     display: flex;
     align-items: center;
@@ -72,12 +79,19 @@
     color: rgba(255, 255, 255, 0.829);
     font-size: 1.1rem;
 }
+.car__item-top {
+    margin-bottom: 15px;
+}
+.car__img{
+    margin-bottom: 10px;
+}
 
-
-
-
-
-
+.car__item:nth-child(2) .car__img img, .car__item:nth-child(6) .car__img img, .car__item:nth-child(8) .car__img img{
+    width: 73%;
+}
+.car__item:nth-child(4) .car__img img{
+    width: 85%;
+}
 
 
 
