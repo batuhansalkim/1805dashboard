@@ -15,14 +15,15 @@ function Booking(){
                         </select>
                     </div>
 
-                    <div className="filter__widget-01">
+                    <div className="filter__widget-02">
                         <select>
                             <option value="toyota">Toyota</option>
                             <option value="bmw">Bmw</option>
                             <option value="audi">Audi</option>
                         </select>
-                    </div>
+                    </div> 
                 </div>
+
                 <div className="booking__car-list">
                     <div className="car__item">
                         <div className="car__item-top">
@@ -41,7 +42,7 @@ function Booking(){
                                 <p><i className="ri-user-line"></i>4</p>
                                 <p><i className="ri-repeat-line"></i>Manual</p>
                             </div>
-                            <p>$29/h</p>
+                            <p className="car__rent">$29/d</p>
                         </div>
                     </div>
                 </div>
