@@ -17,9 +17,9 @@ function Booking(){
 
                     <div className="filter__widget-01">
                         <select>
-                            <option value="New">New</option>
-                            <option value="Popular">Popular</option>
-                            <option value="Upcoming">Upcoming</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="bmw">Bmw</option>
+                            <option value="audi">Audi</option>
                         </select>
                     </div>
                 </div>

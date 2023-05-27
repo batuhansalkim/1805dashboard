@@ -9,9 +9,10 @@ function Layout(){
         <Sidebar/>
         <div className="main__layout">
             <TopNav/>
-            <Dashboard/>
+            
         <div className="content">
             <Router />
+                
         </div> 
         </div>     
     </div>

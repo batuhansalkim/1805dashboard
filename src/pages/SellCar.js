@@ -2,7 +2,7 @@ import React from "react";
 
 function SellCar(){
     return(
-        <div>
+        <div style={{margin:"auto", color:"white",fontSize:"45px"}}>
             sellcar
         </div>
     )

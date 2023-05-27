@@ -15,7 +15,7 @@ function sidebar() {
             {
               navLinks.map((item,index)=>(
                 <li className='nav__item' key={index}> 
-                <NavLink to={item.path} className={(navClass)=>navClass.isActive ? "nav__active nav__link" : "nav__link"}>
+                  <NavLink component={item.display} to={item.path} path={item.path} className={(navClass)=>navClass.isActive ? "nav__active nav__link" : "nav__link"}>
                   <i className={item.icon}></i>
                   {item.display}
                 </NavLink>
